@@ -1,7 +1,5 @@
 # Emotion Finder
 
-![GitHub repo size](https://img.shields.io/github/repo-size/scottydocs/README-template.md)
-
 Emotion Finder is a project that allows users to find an emotion on a face.
 
 ## Prérequis
