@@ -48,7 +48,7 @@ def emotion_finder(image_path):
     :param image_path:Path to a picture file to analyze
     :return:Print the emotions found
     """
-    likelihood_name = ('UNKNOWN', 'VERY_UNLIKELY', 'UNLIKELY', 'POSSIBLE', 'LIKELY', 'VERY_LIKELY')
+    likelihood_name = ('Incoonu', 'Pas du tout', 'Un petit peu', 'Probablement', 'Tout à fait', 'Carrément !')
     client = vision.ImageAnnotatorClient()
     with io.open(image_path, 'rb') as image:
         content = image.read()
